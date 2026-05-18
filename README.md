@@ -93,23 +93,6 @@ Overall Progress: [█████░░░░░░░░░░░░░░░�
 
 ---
 
-##  Topic Coverage Heatmap
-
-```
-Arrays          ████████████████████  ✅ Strong
-Strings         ███████████████░░░░░  ✅ Good
-Linked Lists    █████████░░░░░░░░░░░  🔄 In Progress
-Trees           ████████░░░░░░░░░░░░  🔄 In Progress  
-Graphs          ██████░░░░░░░░░░░░░░  🔄 In Progress
-Dynamic Prog.   ████████████░░░░░░░░  ✅ Good
-Backtracking    █████░░░░░░░░░░░░░░░  🔄 In Progress
-Binary Search   ████████░░░░░░░░░░░░  🔄 In Progress
-Heap/PQ         ████░░░░░░░░░░░░░░░░  📌 Starting
-Tries           ██░░░░░░░░░░░░░░░░░░  📌 Starting
-SQL             ████████████░░░░░░░░  ✅ Good
-```
-
----
 
 ##  Goals & Milestones
 
