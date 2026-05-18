@@ -36,3 +36,35 @@ Constraints:
 1 <= arr.length <= 5 * 104
 -108 <= arr[i] <= 108
 '''
+from collections import defaultdict, deque
+
+class Solution:
+    def minJumps(self, arr):
+        n = len(arr)
+        if n == 1:
+            return 0
+        mp = defaultdict(list)
+        for i, val in enumerate(arr):
+            mp[val].append(i)
+        q = deque([0])
+        visited = [False] * n
+        visited[0] = True
+        steps = 0
+        while q:
+            for _ in range(len(q)):
+                idx = q.popleft()
+                if idx == n - 1:
+                    return steps
+                if idx - 1 >= 0 and not visited[idx - 1]:
+                    visited[idx - 1] = True
+                    q.append(idx - 1)
+                if idx + 1 < n and not visited[idx + 1]:
+                    visited[idx + 1] = True
+                    q.append(idx + 1)
+                for next_idx in mp[arr[idx]]:
+                    if not visited[next_idx]:
+                        visited[next_idx] = True
+                        q.append(next_idx)
+                mp[arr[idx]].clear()
+            steps += 1
+        return -1
