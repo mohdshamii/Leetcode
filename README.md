@@ -136,8 +136,8 @@ def solve_any_problem(problem):
 
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-Follow%20Me-181717?style=for-the-badge&logo=github)](https://github.com/codexshami)
-[![LeetCode](https://img.shields.io/badge/LeetCode-My%20Profile-FFA116?style=for-the-badge&logo=leetcode)](https://leetcode.com/codexshami)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow%20Me-181717?style=for-the-badge&logo=github)](https://github.com/mohdshamii)
+[![LeetCode](https://img.shields.io/badge/LeetCode-My%20Profile-FFA116?style=for-the-badge&logo=leetcode)](https://leetcode.com/mohdshamii)
 
 </div>
 
@@ -153,6 +153,6 @@ def solve_any_problem(problem):
 
 **If this repo helped you, smash that ⭐ star — it fuels the grind!**
 
-![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=codexshami.leetcode)
+![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=mohdshamii.leetcode)
 
 </div>
