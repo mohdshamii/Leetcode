@@ -11,7 +11,7 @@
 
 ###  Algorithmic Mastery · Data Structures · Interview Preparation 
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Solving+Problems%2C+One+Line+at+a+Time;Python+%7C+SQL+%7C+DSA+Expert+in+Progress;60+Down+%E2%80%94+941+to+Go+%F0%9F%94%A5;Think+Deep.+Code+Clean.+Optimize+Always." alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Solving+Problems%2C+One+Line+at+a+Time;Python+%7C+SQL+%7C+DSA+Expert+in+Progress;61+Down+%E2%80%94+941+to+Go+%F0%9F%94%A5;Think+Deep.+Code+Clean.+Optimize+Always." alt="Typing SVG" />
 
 ---
 
@@ -43,16 +43,16 @@ This is my personal battlefield — a curated collection of **LeetCode solutions
 
 | Metric | Count | Progress |
 |--------|-------|----------|
-|  Total Solved | **60** | `█████░░░░░░░░░░░░░░░` 5.9% |
+|  Total Solved | **61** | `█████░░░░░░░░░░░░░░░` 5.9% |
 |  Easy | **25** | `████████░░░░░░░░░░░░` 40.7% |
-|  Medium | **27** | `█████████░░░░░░░░░░░` 45.8% |
+|  Medium | **28** | `█████████░░░░░░░░░░░` 45.8% |
 |  Hard | **8** | `████░░░░░░░░░░░░░░░░` 13.5% |
 |  Goal | **1000+** | Keep grinding... |
 
 </div>
 
 ```
-Overall Progress: [█████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 5.9% → 1000
+Overall Progress: [█████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 6.0% → 1000
 ```
 
 ---
