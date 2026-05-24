@@ -1,5 +1,5 @@
 '''
-1340. Jump game iv
+1340. Jump game v
 
 Given an array of integers arr and an integer d. In one step you can jump from index i to index:
 
