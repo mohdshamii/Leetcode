@@ -65,3 +65,19 @@ landStartTime.length == landDuration.length == n
 waterStartTime.length == waterDuration.length == m
 1 <= landStartTime[i], landDuration[i], waterStartTime[j], waterDuration[j] <= 1000
 '''
+
+lass Solution:
+    def earliestFinishTime(self, landStartTime, landDuration,
+                           waterStartTime, waterDuration):
+        ans = float('inf')
+        for ls, ld in zip(landStartTime, landDuration):
+            for ws, wd in zip(waterStartTime, waterDuration):
+                ans = min(
+                    ans,
+                    max(ls + ld, ws) + wd
+                )
+                ans = min(
+                    ans,
+                    max(ws + wd, ls) + ld
+                )
+        return ans
