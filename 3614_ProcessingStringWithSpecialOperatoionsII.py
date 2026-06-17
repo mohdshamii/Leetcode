@@ -71,3 +71,42 @@ s consists of only lowercase English letters and special characters '*', '#', an
 0 <= k <= 1015
 The length of result after processing s will not exceed 1015.
 '''
+class Solution:
+    def processStr(self, s: str, k: int) -> str:
+        n = len(s)
+
+        length = [0] * (n + 1)
+
+        for i, ch in enumerate(s):
+            cur = length[i]
+
+            if 'a' <= ch <= 'z':
+                length[i + 1] = cur + 1
+            elif ch == '*':
+                length[i + 1] = max(0, cur - 1)
+            elif ch == '#':
+                length[i + 1] = cur * 2
+            else:  # '%'
+                length[i + 1] = cur
+
+        if k >= length[n]:
+            return '.'
+
+        for i in range(n - 1, -1, -1):
+            ch = s[i]
+            L = length[i]
+
+            if 'a' <= ch <= 'z':
+                if k == L:
+                    return ch
+
+            elif ch == '#':
+                if k >= L:
+                    k -= L
+
+            elif ch == '%':
+                k = L - 1 - k
+
+            # '*' => k unchanged
+
+        return '.'
