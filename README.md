@@ -18,7 +18,7 @@ A comprehensive collection of LeetCode problem solutions with clean code and opt
 |------------|--------|----------|
 | Easy | 36 | ████████░░░░░░░░░░░░ 40% |
 | Medium | 45 | █████████░░░░░░░░░░░ 46% |
-| Hard | 13 | ████░░░░░░░░░░░░░░░░ 14% |
+| Hard | 14 | ████░░░░░░░░░░░░░░░░ 14% |
 
 ## Repository Structure
 
