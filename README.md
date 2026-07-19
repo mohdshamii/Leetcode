@@ -7,7 +7,7 @@ A comprehensive collection of LeetCode problem solutions with clean code and opt
 
 | Category | Details |
 |----------|---------|
-| Total Solved | 125 / 1000+ |
+| Total Solved | 126 / 1000+ |
 | Primary Language | Python |
 | Secondary | SQL |
 | Focus Areas | Data Structures, Algorithms, Interview Preparation |
@@ -16,7 +16,7 @@ A comprehensive collection of LeetCode problem solutions with clean code and opt
 
 | Difficulty | Solved | Progress |
 |------------|--------|----------|
-| Easy | 48 | ████████░░░░░░░░░░░░ 40% |
+| Easy | 49 | ████████░░░░░░░░░░░░ 40% |
 | Medium | 59 | █████████░░░░░░░░░░░ 46% |
 | Hard | 18 | ████░░░░░░░░░░░░░░░░ 14% |
 
