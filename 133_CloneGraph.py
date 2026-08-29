@@ -1,33 +1,14 @@
-from collections import deque
-
 class Solution:
-    def canFinish(self, numCourses, prerequisites):
-
-        graph = [[] for _ in range(numCourses)]
-        indegree = [0] * numCourses
-
-        # Build graph
-        for course, prereq in prerequisites:
-            graph[prereq].append(course)
-            indegree[course] += 1
-
-        # Courses with no prerequisites
-        q = deque()
-
-        for i in range(numCourses):
-            if indegree[i] == 0:
-                q.append(i)
-
-        completed = 0
-
-        while q:
-            course = q.popleft()
-            completed += 1
-
-            for next_course in graph[course]:
-                indegree[next_course] -= 1
-
-                if indegree[next_course] == 0:
-                    q.append(next_course)
-
-        return completed == numCourses
+    def cloneGraph(self, node):
+        if not node:
+            return None
+        clones = {}
+        def dfs(curr):
+            if curr in clones:
+                return clones[curr]
+            copy = Node(curr.val)
+            clones[curr] = cope
+            for nei in curr.neighbors:
+                copy.neighbors.append(dfs(nei))
+            return copy
+        return dfs(node)
