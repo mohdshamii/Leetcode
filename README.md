@@ -1,73 +1,84 @@
-
 # LeetCode Solutions
 
-A comprehensive collection of LeetCode problem solutions with clean code and optimal approaches.
+A personal collection of LeetCode problem solutions, written in Python and SQL (with a few JavaScript and text files), covering arrays, strings, dynamic programming, graphs, trees, linked lists, and more.
 
 ## Overview
 
-| Category | Details |
-|----------|---------|
-| Total Solved | 200 | 1000+ |
-| Primary Language | Python |
-| Secondary | SQL |
-| Focus Areas | Data Structures, Algorithms, Interview Preparation |
+| Category         | Details                                              |
+| ----------------- | ----------------------------------------------------- |
+| Total Solved      | 200                                                  |
+| Primary Language  | Python                                                |
+| Secondary         | SQL                                                   |
+| Other             | JavaScript, plain text (regex problems)               |
+| Focus Areas       | Data Structures, Algorithms, Interview Preparation    |
 
 ## Progress Summary
 
-| Difficulty | Solved | Progress |
-|------------|--------|----------|
-| Easy | 86 | ████████░░░░░░░░░░░░ 40% |
-| Medium | 91 | █████████░░░░░░░░░░░ 46% |
-| Hard | 23 | ████░░░░░░░░░░░░░░░░ 14% |
+| Difficulty | Solved | Progress                 |
+| ---------- | ------ | ------------------------ |
+| Easy       | 86     | ████████░░░░░░░░░░░░ 40% |
+| Medium     | 91     | █████████░░░░░░░░░░░ 46% |
+| Hard       | 23     | ████░░░░░░░░░░░░░░░░ 14% |
 
 ## Repository Structure
 
+Every solution lives in the root of the repo (no subfolders). Files follow a consistent naming convention:
+
 ```
-LeetCode/
-├── arrays/           # Two pointers, sliding window, prefix sum
-├── strings/          # Pattern matching, manipulation
-├── dynamic_programming/  # Memoization, tabulation
-├── graphs/           # BFS, DFS, Dijkstra, Union-Find
-├── trees/            # Binary trees, BST, trie
-├── linked_lists/     # Reversal, cycle detection, merging
-├── stacks_queues/    # Monotonic stack, deque
-├── binary_search/    # Classic, rotated arrays
-├── heaps/            # Priority queues, top K elements
-├── backtracking/     # Permutations, combinations
-├── greedy/           # Interval scheduling, optimization
-├── math_bits/        # Bit manipulation, modular arithmetic
-└── sql/              # Joins, window functions, CTEs
+<LeetCode Problem Number>_<ProblemName>.<extension>
 ```
+
+Examples:
+
+```
+02_AddTwoNumbers.py
+121_Best_Time_to_Buy_and_Sell_Stock.py
+185_DuplicateEmails.sql
+193_ValidPhoneNumber.txt
+2724_SortBy.js
+```
+
+- `.py` — the large majority of solutions
+- `.sql` — database/query problems (joins, window functions)
+- `.js` — a small number of JavaScript solutions
+- `.txt` — regex/pattern-matching answers where a script isn't the natural format
+
+To find a specific problem, search the repo by its LeetCode number (e.g. search `200_` for "Number of Islands").
+
+## Topics Covered
+
+Based on the problems solved so far, this repo spans:
+
+- **Arrays & Strings** — two pointers, sliding window, prefix sums
+- **Dynamic Programming** — memoization and tabulation
+- **Graphs** — BFS, DFS, Union-Find, shortest paths
+- **Trees** — binary trees, BSTs, tries
+- **Linked Lists** — reversal, cycle detection, merging
+- **Stacks & Queues** — monotonic stack, deque
+- **Binary Search** — classic and rotated-array variants
+- **Backtracking** — permutations and combinations
+- **Greedy** — interval scheduling and optimization
+- **Bit Manipulation & Math**
+- **SQL** — joins, window functions, CTEs
 
 ## Methodology
 
-Each solution includes:
+Where practical, solutions aim to include:
 
-- Time complexity analysis
-- Space complexity analysis
-- Step-by-step explanation
+- Time and space complexity analysis
+- Clear, readable variable names and logic
 - Edge case handling
-- Multiple approaches where applicable
-
-## Technical Stack
-
-| Technology | Purpose |
-|------------|---------|
-| Python 3 | Algorithm implementation |
-| SQL | Database problem solving |
-| Git | Version control |
+- Alternative approaches for harder problems
 
 ## Getting Started
 
 ```bash
 # Clone the repository
-git clone https://github.com/mohdshamii/leetcode.git
+git clone https://github.com/mohdshamii/Leetcode.git
+cd Leetcode
 
-# Navigate to any problem directory
-cd leetcode/arrays/
-
-# Review solutions and explanations
-cat problem_name.py
+# Open any solution directly by its problem number
+cat 200_NumberOfIsland.py
 ```
 
 ## Milestones
@@ -81,10 +92,10 @@ cat problem_name.py
 
 ## Connect
 
-| Platform | Profile |
-|----------|---------|
-| GitHub | github.com/mohdshamii |
-| LeetCode | leetcode.com/mohdshamii |
+| Platform | Profile                  |
+| -------- | ------------------------ |
+| GitHub   | github.com/mohdshamii    |
+| LeetCode | leetcode.com/mohdshamii  |
 
 ## License
 
@@ -93,4 +104,3 @@ This project is for educational purposes. Solutions are original unless otherwis
 ---
 
 *Maintained by mohdshamii | Last updated: 2026*
-```
