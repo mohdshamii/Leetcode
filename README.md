@@ -6,7 +6,7 @@ A personal collection of LeetCode problem solutions, written in Python and SQL (
 
 | Category          | Details                                               |
 | ----------------- | ----------------------------------------------------- |
-| Total Solved      | 247                                                   |
+| Total Solved      | 248                                                   |
 | Primary Language  | Python                                                |
 | Secondary         | SQL                                                   |
 | Other             | JavaScript, plain text (regex problems)               |
@@ -18,7 +18,7 @@ A personal collection of LeetCode problem solutions, written in Python and SQL (
 | ---------- | ------ | ------------------------ |
 | Easy       | 97   | ████████░░░░░░░░░░░░ 40% |
 | Medium     | 115   | █████████░░░░░░░░░░░ 46% |
-| Hard       | 35   | ████░░░░░░░░░░░░░░░░ 14% |
+| Hard       | 36  | ████░░░░░░░░░░░░░░░░ 14% |
 
 ## Repository Structure
 
