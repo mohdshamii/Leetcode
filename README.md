@@ -85,7 +85,7 @@ cat 200_NumberOfIsland.py
 
 - [x] 50 problems completed
 - [x] 100 problems
-- [ ] 250 problems
+- [x] 250 problems
 - [ ] 500 problems
 - [ ] 750 problems
 - [ ] 1000 problems
