@@ -16,8 +16,8 @@ A personal collection of LeetCode problem solutions, written in Python and SQL (
 
 | Difficulty | Solved | Progress                 |
 | ---------- | ------ | ------------------------ |
-| Easy       | 101    | ████████░░░░░░░░░░░░ 40% |
-| Medium     | 120   | █████████░░░░░░░░░░░ 46% |
+| Easy       | 100    | ████████░░░░░░░░░░░░ 40% |
+| Medium     | 121   | █████████░░░░░░░░░░░ 46% |
 | Hard       | 37  | ████░░░░░░░░░░░░░░░░ 14% |
 
 ## Repository Structure
