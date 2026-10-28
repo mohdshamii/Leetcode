@@ -1,1 +1,40 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# C++ build files
+*.exe
+*.o
+*.obj
+*.out
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating system
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Environment variables and secrets
 .env
+.env.*
+!.env.example
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
