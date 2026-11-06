@@ -1,5 +1,6 @@
-#  LeetCode Solutions & DSA Learning System
+# 🚀 LeetCode Solutions & DSA Learning System
 
+[![Repository Verification](https://github.com/mohdshamii/Leetcode/actions/workflows/verify.yml/badge.svg)](https://github.com/mohdshamii/Leetcode/actions/workflows/verify.yml)
 [![Total Solutions](https://img.shields.io/badge/Solutions-222-blue.svg?style=flat-square)](PROBLEM_INDEX.md)
 [![Unique Problems](https://img.shields.io/badge/Unique_Problems-218-brightgreen.svg?style=flat-square)](PROBLEM_INDEX.md)
 [![Primary Language](https://img.shields.io/badge/Language-Python%20%7C%20C%2B%2B%20%7C%20SQL-yellow.svg?style=flat-square)](#-technologies--languages)
@@ -10,12 +11,12 @@ A structured, algorithm-first repository of LeetCode problem solutions in Python
 ---
 
 <!-- AUTO-GENERATED-DASHBOARD:START -->
-###  Repository Dashboard
+### 📊 Repository Dashboard
 
 <!-- Quick Stat Badges -->
 ![Total Solutions](https://img.shields.io/badge/Solutions-222-blue.svg?style=flat-square) ![Unique Problems](https://img.shields.io/badge/Unique_Problems-218-brightgreen.svg?style=flat-square) ![Python](https://img.shields.io/badge/Python-205_files-blue.svg?style=flat-square) ![C++](https://img.shields.io/badge/C++-3_files-00599C.svg?style=flat-square) ![SQL](https://img.shields.io/badge/SQL-12_files-orange.svg?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-3_files-F7DF1E.svg?style=flat-square)
 
-####  Summary Statistics
+#### 📈 Summary Statistics
 
 | Metric | Count | Details |
 |:-------|:------|:--------|
@@ -25,7 +26,7 @@ A structured, algorithm-first repository of LeetCode problem solutions in Python
 | **Secondary Languages** | **C++** (3), **SQL** (10), **JavaScript** (3), **Shell** (1) | Full multi-language support |
 | **DSA Pattern Folders** | **17 Topics** | Systematic pattern-first classification |
 
-####  Topic-wise Progress & Pattern Breakdown
+#### 📂 Topic-wise Progress & Pattern Breakdown
 
 | Pattern Category | Solutions | Distribution | Quick Link |
 |:-----------------|:----------|:-------------|:-----------|
@@ -47,7 +48,7 @@ A structured, algorithm-first repository of LeetCode problem solutions in Python
 | **Trees and Binary Search Trees** | 9 | `██░░░░░░░░░░` 9 | [`Trees-and-Binary-Search-Trees/`](Trees-and-Binary-Search-Trees/) |
 | **Two Pointers and Sliding Window** | 12 | `███░░░░░░░░░` 12 | [`Two-Pointers-and-Sliding-Window/`](Two-Pointers-and-Sliding-Window/) |
 
-####  Difficulty Distribution (Directly Verified in Source Comments)
+#### 🎯 Difficulty Distribution (Directly Verified in Source Comments)
 
 | Difficulty | Verified Count | Progress Bar | Note |
 |:-----------|:---------------|:-------------|:-----|
@@ -56,7 +57,7 @@ A structured, algorithm-first repository of LeetCode problem solutions in Python
 | **Hard** | 5 | `███░░░░░░░` 5 | Confirmed via inline solution metadata |
 | *Unspecified inline* | 207 | — | Full details listed in [PROBLEM_INDEX.md](PROBLEM_INDEX.md) |
 
-####  Recently Added Solutions
+#### 🕒 Recently Added Solutions
 
 | Problem | Title | Date / Commit | Link |
 |:--------|:------|:--------------|:-----|
@@ -73,7 +74,7 @@ A structured, algorithm-first repository of LeetCode problem solutions in Python
 
 ---
 
-##  DSA Learning Guides & Interview Resources
+## 📚 DSA Learning Guides & Interview Resources
 
 Deep-dive documentation and revision notes designed for interview preparation and problem-solving mastery:
 
@@ -88,7 +89,7 @@ Deep-dive documentation and revision notes designed for interview preparation an
 
 ---
 
-##  Repository Organization
+## 🗂️ Repository Organization
 
 Solutions are organized systematically by their underlying **DSA Pattern** rather than generic difficulty:
 
@@ -134,7 +135,7 @@ Leetcode/
 
 ---
 
-##  Developer Tools & CLI
+## 🛠️ Developer Tools & CLI
 
 Lightweight, zero-dependency Python tools for maintaining repository quality:
 
@@ -153,7 +154,7 @@ python scripts/repo_tool.py verify-inventory  # Verify SHA-256 hashes against ma
 
 ---
 
-##  Guide for Adding Future Solutions
+## 📝 Guide for Adding Future Solutions
 
 Follow these simple steps when adding a new solution:
 
@@ -181,7 +182,7 @@ Follow these simple steps when adding a new solution:
 
 ---
 
-##  Milestones
+## 🎯 Milestones
 
 - [x] 50 problems completed
 - [x] 100 problems completed
@@ -193,7 +194,7 @@ Follow these simple steps when adding a new solution:
 
 ---
 
-##  Connect & Maintainer
+## 👤 Connect & Maintainer
 
 | Platform | Profile |
 |:---------|:--------|

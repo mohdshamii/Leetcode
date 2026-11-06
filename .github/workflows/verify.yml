@@ -1,0 +1,32 @@
+name: Repository Integrity & Syntax Verification
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Cryptographic Inventory & Integrity Check
+        run: python scripts/verify_inventory.py
+
+      - name: Duplicate & Collision Detection
+        run: python scripts/detect_duplicates.py
+
+      - name: Python Syntax Audit (Static AST)
+        run: python scripts/validate_syntax.py
+
+      - name: Markdown Links Verification
+        run: python scripts/check_readme_links.py
+
