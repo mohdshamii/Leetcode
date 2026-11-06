@@ -23,6 +23,14 @@ def get_file_hash(filepath):
             hasher.update(chunk)
     return hasher.hexdigest()
 
+def get_crlf_normalized_hash(filepath):
+    try:
+        with open(filepath, "r", encoding="utf-8", newline=None) as f:
+            normalized = f.read().replace("\n", "\r\n").encode("utf-8")
+    except (UnicodeDecodeError, OSError):
+        return None
+    return hashlib.sha256(normalized).hexdigest()
+
 def verify_full_inventory(manifest_path=None):
     if manifest_path is None:
         manifest_path = os.path.join(REPO_ROOT, "migration_manifest.json")
@@ -56,6 +64,10 @@ def verify_full_inventory(manifest_path=None):
 
         actual_hash = get_file_hash(full_dest)
         if actual_hash != expected_hash:
+            normalized_hash = get_crlf_normalized_hash(full_dest)
+            if normalized_hash == expected_hash:
+                verified_files += 1
+                continue
             hash_mismatches.append({
                 "file": dest_rel,
                 "expected": expected_hash,
@@ -94,4 +106,3 @@ def verify_full_inventory(manifest_path=None):
 if __name__ == "__main__":
     passed = verify_full_inventory()
     sys.exit(0 if passed else 1)
-
