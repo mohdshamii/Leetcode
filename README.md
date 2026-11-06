@@ -1,6 +1,5 @@
 #  LeetCode Solutions & DSA Learning System
 
-[![Repository Verification](https://github.com/mohdshamii/Leetcode/actions/workflows/verify.yml/badge.svg)](https://github.com/mohdshamii/Leetcode/actions/workflows/verify.yml)
 [![Total Solutions](https://img.shields.io/badge/Solutions-222-blue.svg?style=flat-square)](PROBLEM_INDEX.md)
 [![Unique Problems](https://img.shields.io/badge/Unique_Problems-218-brightgreen.svg?style=flat-square)](PROBLEM_INDEX.md)
 [![Primary Language](https://img.shields.io/badge/Language-Python%20%7C%20C%2B%2B%20%7C%20SQL-yellow.svg?style=flat-square)](#-technologies--languages)
