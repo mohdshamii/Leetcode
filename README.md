@@ -6,9 +6,9 @@ A simple tracker for my LeetCode solutions, DSA practice, and revision progress.
 
 | Metric | Current Progress |
 |---|---:|
-| Solution files | 224 |
+| Solution files | 225 |
 | Unique problems | 218 |
-| Python solutions | 206 |
+| Python solutions | 207 |
 | C++ solutions | 3 |
 | SQL solutions | 10 |
 | JavaScript solutions | 3 |
@@ -36,7 +36,7 @@ A simple tracker for my LeetCode solutions, DSA practice, and revision progress.
 | Database / SQL | 12 | [ ] |
 | Dynamic Programming | 19 | [ ] |
 | Graphs | 20 | [ ] |
-| Greedy Algorithms | 16 | [ ] |
+| Greedy Algorithms | 17 | [ ] |
 | Heaps and Priority Queues | 3 | [ ] |
 | Intervals | 8 | [ ] |
 | JavaScript | 3 | [ ] |
