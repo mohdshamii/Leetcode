@@ -1,0 +1,25 @@
+[1mdiff --git a/README.md b/README.md[m
+[1mindex 58b68a1..33b9fe5 100644[m
+[1m--- a/README.md[m
+[1m+++ b/README.md[m
+[36m@@ -6,9 +6,9 @@[m [mA simple tracker for my LeetCode solutions, DSA practice, and revision progress.[m
+ [m
+ | Metric | Current Progress |[m
+ |---|---:|[m
+[31m-| Solution files | 225 |[m
+[32m+[m[32m| Solution files | 226 |[m
+ | Unique problems | 218 |[m
+[31m-| Python solutions | 207 |[m
+[32m+[m[32m| Python solutions | 208 |[m
+ | C++ solutions | 3 |[m
+ | SQL solutions | 10 |[m
+ | JavaScript solutions | 3 |[m
+[36m@@ -30,7 +30,7 @@[m [mA simple tracker for my LeetCode solutions, DSA practice, and revision progress.[m
+ [m
+ | Topic | Solved | Done? |[m
+ |---|---:|:---:|[m
+[31m-| Arrays and Hashing | 32 | [ ] |[m
+[32m+[m[32m| Arrays and Hashing | 33 | [ ] |[m
+ | Backtracking | 4 | [ ] |[m
+ | Binary Search | 7 | [ ] |[m
+ | Database / SQL | 12 | [ ] |[m

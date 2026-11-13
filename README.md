@@ -6,7 +6,7 @@ A simple tracker for my LeetCode solutions, DSA practice, and revision progress.
 
 | Metric | Current Progress |
 |---|---:|
-| Solution files | 226 |
+| Solution files | 227 |
 | Unique problems | 218 |
 | Python solutions | 208 |
 | C++ solutions | 3 |
@@ -30,7 +30,7 @@ A simple tracker for my LeetCode solutions, DSA practice, and revision progress.
 
 | Topic | Solved | Done? |
 |---|---:|:---:|
-| Arrays and Hashing | 33 | [ ] |
+| Arrays and Hashing | 34 | [ ] |
 | Backtracking | 4 | [ ] |
 | Binary Search | 7 | [ ] |
 | Database / SQL | 12 | [ ] |
